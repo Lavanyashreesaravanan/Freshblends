@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: lightgoldenrodyellow; */
+    background-color: rgb(253, 253, 234);
+}
+
+/*--------------------------------------------------------navbar-------------------------------------------------------*/
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+   background-image: linear-gradient(to right , #f78db0, #f5a1bc   ,#f78db0   );
+
+}
+#navbarNav{
+    color: white;
+}
+span{
+    font-size: 30px;
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navbar-log{
+    color: white;
+}
+#navbar-log:hover{
+    color: yellow;
+}
+#btn-nav{
+    color: #ec588a;
+    background-color: white
+}
+#btn-nav:hover{
+    color: black;
+    background-color: yellow;
+}
+
+/*-------------------------------------------------------home---------------------------------------------------------*/
+#banner{
+    position: relative;
+    background-image:linear-gradient(to right , #f78db0, #f5a1bc   ,#f78db0   );
+    color: #fff;
+    padding-top: 3%;
+    
+}
+
+#img-title{
+    padding-left: 30%;
+    padding-bottom: 10%;
+    margin-left: 1%;
+    height: 550px;
+    width: 77%;
+    position: static;
+    transform: rotate(30deg);
+ 
+}
+.wave{
+    position: absolute;
+     bottom: -10%; 
+     padding-top: 25%;
+    left: 0;
+}
+.home-title{
+    text-align: center;
+    font-size: 70px;
+    vertical-align: middle;
+}
+.centered {
+    font-family: 'Dancing Script',sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    z-index: 01;
+    color: white;
+  }
+
+  /*-------------------------------------------------------about us--------------------------------------------------------*/
+#aboutus{
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.img-fluid{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.about-title{
+    padding-top:4%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 50px;
+   color: #440c53;
+   font-weight: 700;
+}
+.section-title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 9%;
+    color: #440c53;
+    font-weight: 500;
+}
+
+#abt-us{
+    padding-left: 20%;
+}
+.paragraph{  
+    font-size: 15px;
+   
+} 
+.test-img {
+    height: 100%;
+    width: 100%;
+}
+#img-1{
+    height: 60px;
+    width: 80px;
+    align-items: center;
+    /* border-radius: 100%; */
+    border-radius: 10px
+    
+}
+
+/* ----------------------------------------------------------------best blends--------------------------------------------------------- */
+
+#blends-title{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 50px;
+    color:  #440c53;
+}
+#p-blends{
+    font-size: 20px;
+    text-align: center;
+}
+#img-blend1{
+    height: 500px ;
+    width: 100%;
+}
+.section-title{
+    padding-bottom: 3%;
+    color: #440c53;
+}
+#abt-left{
+    padding-left: 25%;
+}
+.blend {
+    height: 500px;
+    width: 400px;
+}
+
+/* ----------------------------------------------------------menu section----------------------------------------------- */
+#menu{
+    background-image: linear-gradient(to right, #abd524,#c3ff00);
+}
+#wave{
+     position: absolute; 
+     /* top: 10%; */
+     left: 0; 
+
+} 
+
+.menu-heading{
+    padding-top: 15%;
+    padding-left: 3%;
+    color: white;
+    font-size: 100px;
+    font-family:'Dancing Script',sans-serif ;
+    font-weight: bolder;
+}
+.menu-items{
+    color: white;
+    font-size: 30px;
+    padding-left: 11%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+#btn-footer{
+    padding-left: 8%;
+    margin-top: 5%;
+    padding-right: 8%;
+    color: #440c53;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: skyblue;
+}
+#wavebellow{
+   height: 30%;
+}
+
+/* ------------------------------------------------------taste------------------------------------------------------------- */
+#taste-title{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 50px;
+    color:  #440c53;
+}
+#t-blends{
+    font-size: 20px;
+    text-align: center;
+}
+#taste{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+#taste-1{
+    height: 200px;
+}
+#img-taste{
+    padding-right: 13%;
+    padding-inline-start: 13%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+#taste-2{
+    height: 400px;
+    padding-top: 5%;
+}
+
+/*-------------------------------------------------------footer--------------------------------------------------------*/
+#footer{
+    text-align: center;
+    color: #440c53;
+    padding-top: 3%;
+    /* padding-bottom: 3%; */
+    font-weight: 700;
+    font-size: 50px;
+    background-image:linear-gradient(to right , #f78db0, #f5a1bc   ,#f78db0   );
+}
+.footer-title{
+    padding-bottom: 5%;
+    padding-top: 12%;
+    color: #440c53; 
+    font-weight: 700;
+    font-size: 50px;
+}
+#footer-intro{
+    color: #440c53;
+    font-weight: bolder;
+}
+#footer-p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-top: 2%;
+}
+#connect{
+    color:#440c53;
+    font-size: 25px;
+    font-weight: 600;
+}
+#s-hand{
+    justify-content: space-between;
+}
+#wave-f{
+    position: absolute;
+    left: 0;
+}
